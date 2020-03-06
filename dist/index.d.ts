@@ -1,0 +1,11 @@
+export declare function addClass(element: Element, className: string): 0 | undefined;
+export declare function removeClass(element: Element, className: string): void;
+export declare function removeAllClass(element: Element): void;
+export declare function toggleClass(element: Element, className: string): void;
+export declare function checkClass(element: Element, className: string): boolean;
+export declare function get(id: string): HTMLElement | null;
+export declare function gets(className: string): HTMLCollectionOf<Element>;
+export declare function height(element: Element): number;
+export declare function width(element: Element): number;
+export declare function screenHeight(): number;
+export declare function screenWidth(): number;

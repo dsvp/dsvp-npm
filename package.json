@@ -1,0 +1,28 @@
+{
+  "name": "dsvp",
+  "version": "0.0.1",
+  "description": "This is a npm package for frequently used Typescript syntax by designveloper.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsvp/dsvp-npm.git"
+  },
+  "author": "designveloper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://dsvp.kr/"
+  },
+  "homepage": "https://dsvp.kr/",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^13.7.7",
+    "ts-node": "^8.6.2"
+  }
+}
